@@ -1,0 +1,145 @@
+/*---------GLOBAL---------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic";
+  background-color: #e9edee;
+}
+
+/*-------HEADER----------*/
+.firstTop {
+  background-color: #222f3e;
+}
+
+.firstTop img {
+  width: 150px;
+  margin-block: 15px;
+  margin-inline: 30px;
+}
+
+nav {
+  background-color: #364759;
+  color: #eaeded;
+  font-weight: 500;
+  padding-inline: 30px;
+  padding-block: 15px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+/*-------MAIN----------*/
+.button {
+  margin: 50px 30px;
+  padding: 15px;
+  background-color: #f56600;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.focus {
+  background-image: url(../images/bg-image.png);
+  background-size: 100%;
+  height: 250px;
+  margin-inline: 30px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+
+.focus p {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.second {
+  margin-block: 50px;
+  margin-inline: 30px;
+  background-color: #ffffff;
+}
+
+.second p {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.shop {
+  color: #145f6d;
+  font-weight: bold;
+}
+
+.secondImmages {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.second img {
+  height: 400px;
+  width: 350px;
+  object-fit: fill;
+  border-radius: 50px;
+  padding: 20px;
+  margin-inline: 120px;
+}
+
+.third {
+  margin-block: 30px;
+  margin-inline: 30px;
+  text-align: center;
+  background-size: 100%;
+}
+
+.third img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.third p {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+/*-------FOOTER-------*/
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 200px;
+  margin-block: 15px;
+  margin-inline: 30px;
+}
+
+.firstBot {
+  background-color: #222f3e;
+  padding-block: 100px;
+}
+
+.secondBot {
+  background-color: #364759;
+  color: #eaeded;
+  padding-block: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+}

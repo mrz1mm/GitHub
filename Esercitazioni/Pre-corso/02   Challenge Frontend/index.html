@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMOMIFY - Registrati</title>
+  </head>
+  <body>
+    <h1>REGISTRATI</h1>
+
+    <form
+      action="inserimento_dati.php"
+      method="post"
+      onsubmit="alert('I tuoi dati sono stati correttamente inoltrati')"
+    >
+      <fieldset>
+        <legend>Dati Anagrafici</legend>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Inserisci il tuo nome" required />
+
+        <label for="cognome">Cognome</label>
+        <input type="text" name="cognome" placeholder="Inserisci il tuo cognonome" required />
+
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Inserisci la tua email" required />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Inserisci la tua password" required />
+
+        <label for="dataNascita">Data di nascita</label>
+        <input type="date" name="dataDiNascita" required />
+
+        <label for="numeroTelefono">Numero di telefono</label>
+        <input type="number" name="numeroTelefono" placeholder="+xx 1234567890" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Generi musicali</legend>
+        <span>Che musica ti piace ascoltare?</span>
+        <div>
+          <label for="basket">Caraibica</label>
+          <input type="checkbox" id="caraibica" name="caraibica" value="caraibica" checked />
+        </div>
+        <div>
+          <label for="calcio">Pop</label>
+          <input type="checkbox" id="calcio" name="calcio" value="Calcio" />
+        </div>
+        <div>
+          <label for="rock">Rock</label>
+          <input type="checkbox" id="rock" name="rock" value="rock" />
+        </div>
+        <div>
+          <label for="jazz">Jazz</label>
+          <input type="checkbox" id="jazz" name="jazz" value="jazz" />
+        </div>
+        <div>
+          <label for="classica">Classica</label>
+          <input type="checkbox" id="classica" name="classica" value="classica" />
+        </div>
+      </fieldset>
+
+      <div>
+        <a href="https://google.it">Accetto termini e condizioni</a>
+        <input type="radio" required />
+      </div>
+
+      <button type="submit">Invia registrazione</button>
+    </form>
+  </body>
+</html>
