@@ -3,18 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/img/logo.svg" />
+    <meta name="description" content="Come sviluppare una prima pagina web" />
     <meta name="author" content="Simone Attanasio" />
+    <link rel="shortcut icon" href="./assets/img/logo.svg" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
   </head>
+
   <body>
     <header>
-      <ul id="menu">
-        <li>Home</li>
-        <li>Articoli</li>
-        <li>Lavora con noi</li>
-      </ul>
+      <div>
+        <img src="./assets/img/logo.svg" alt="logo del blog" />
+        <p>Epicode - il blog dei developer</p>
+      </div>
+
+      <nav id="menu">
+        <ul>
+          <li>Home</li>
+          <li>Articoli</li>
+          <li>Lavora con noi</li>
+        </ul>
+      </nav>
     </header>
+
     <main>
       <div id="title">
         <h1>Come creare un template per i post</h1>
@@ -52,7 +62,9 @@
         <div>
           <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</p>
           <table>
-            <h4>Diffusione dei CSS</h4>
+            <caption>
+              Diffusione dei CSS
+            </caption>
             <thead>
               <th>Anno</th>
               <th>% di utilizzo</th>
@@ -115,7 +127,7 @@
         </form>
       </section>
 
-      <section id="areaCorrelati">
+      <aside id="areaCorrelati">
         <h3>Articoli correlati</h3>
         <div>
           <h4>Validare il codice HTML</h4>
@@ -132,8 +144,9 @@
           <p>Categoria: ottimizzazione</p>
           <p>Data: 30/09/2020</p>
         </div>
-      </section>
+      </aside>
     </main>
+
     <footer>
       <div>
         <p>Blog Epicode &#169;2023</p>
