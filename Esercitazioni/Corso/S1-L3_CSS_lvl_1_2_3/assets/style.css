@@ -1,7 +1,11 @@
 /* -------------------- GLOBAL -------------------- */
 body {
   font-family: "Century Gothic";
-  padding: 0 25vh;
+}
+
+main,
+footer {
+  margin: 0 25vh;
 }
 
 h2 {
@@ -19,6 +23,7 @@ header div {
   align-items: center;
   justify-content: center;
   margin: 1em 0;
+  border-top: solid 1px #feeab7;
 }
 
 header img {
